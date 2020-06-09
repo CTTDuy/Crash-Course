@@ -6,6 +6,9 @@
     <title>Crash Course</title>
   </head>
   <body>
+    <a href="blog.html">Go to blog</a>
+    <hr />
+
     <!-- Headings -->
     <h1>Heading One</h1>
     <h2>Heading Two</h2>
@@ -93,12 +96,12 @@
     <form action="process.php" method="POST">
       <div>
         <label>First Name</label>
-        <input type="text" name="firstName" value="Enter first name" />
+        <input type="text" name="firstName" placeholder="Enter first name" />
       </div>
       <br />
       <div>
         <label>Last Name</label>
-        <input type="text" name="lastName" />
+        <input type="text" name="lastName" placeholder="Enter last name" />
       </div>
       <br />
       <div>
@@ -120,8 +123,45 @@
         </select>
       </div>
       <br />
+      <div>
+        <label>Age:</label>
+        <input type="number" name="age" value="30" />
+      </div>
+      <br />
+      <div>
+        <label>Birthday:</label>
+        <input type="date" name="birthday" />
+      </div>
+      <input type="submit" name="S  ubmit" value="Submit" />
     </form>
 
+    <!-- Button -->
+    <button>Click Me</button>
+
+    <br />
+
+    <!-- Image -->
+    <a href="img/sample.jpg">
+      <img src="img/sample.jpg" alt="My sample Image" width="200"
+    /></a>
+
+    <!-- Quotations -->
+    <blockquote cite="http://goodreads.com">
+      No matter how busy you may think you are, you must find time for reading,
+      or surrender yourself to self-chosen ignorance.
+    </blockquote>
+
+    <p>
+      <abbr title="World Wrestling Entertainment">WWE</abbr>is awesomeeeee !!!
+    </p>
+
+    <p>
+      <cite>HTML Crash Course</cite> done by
+      <a href="https://www.facebook.com/caotran.tuanduy" target="_blank"
+        >CTTD</a
+      >
+      . Following youtuber: Traversy Media.
+    </p>
     <div style="margin-top: 500px;"></div>
   </body>
 </html>
